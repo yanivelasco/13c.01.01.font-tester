@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kreon&family=Staatliches&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kreon&family=Prompt:wght@200&family=Staatliches&family=Teko:wght@300&family=Ubuntu&display=swap');
+
+
+
+
+
+:root {
+    --font-display: 'Ubuntu', sans-serif;
+    --font-paragraph: 'Prompt', sans-serif;
+}
+
+html {
+    font-size: 18px;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--font-display);
+}
+
+h1 {
+    
+}
+
+h2 {
+}
+
+h3 {
+}
+
+h4 {
+}
+
+p {
+    font-family: var(--font-paragraph);
+    font-size: .8rem;
+}
+
+p.small {
+}
+
+header {
+    padding: 2rem;
+}
+
+section {
+    padding: 0rem 2rem;
+}
+
+.one_two_grid {
+    display: grid;
+    column-gap: 2rem;
+    grid-template-columns: 1fr 2fr;
+}
+
+.one_one_one_grid {
+    display: grid;
+    column-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.inline {
+    display:inline;
+}
+
+.display { 
+    font-family: var(--font-display);
+}
+
+.paragraph {
+    font-family: var(--font-paragraph);
+}
+
+.small_space {
+    height: 2rem; 
+}
+
+.space {
+    height: 4rem;
+}
