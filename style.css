@@ -2,47 +2,83 @@
     margin: 0px;
     padding: 0px;
 }
-
+/* 
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kreon&family=Staatliches&family=Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kreon&family=Prompt:wght@200&family=Staatliches&family=Teko:wght@300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kreon&family=Prompt:wght@200&family=Staatliches&family=Teko:wght@300&family=Ubuntu&display=swap'); */
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@700&display=swap');
 
 
 
 :root {
-    --font-display: 'Ubuntu', sans-serif;
-    --font-paragraph: 'Prompt', sans-serif;
+    --font-display: 'Bebas Neue', cursive;
+    --font-h: 'Figtree', sans-serif;
+    --font-paragraph: 'Heebo', sans-serif;
 }
 
 html {
     font-size: 18px;
 }
-
-h1, h2, h3, h4 {
-    font-family: var(--font-display);
+main{
+    margin-top: 2rem;
+    margin-left: 2rem;
 }
 
-h1 {
+.display{
+    font-size: 3em;
     
 }
 
-h2 {
+.headline{
+    font-size: 2em;
+    margin-top: 2rem;
 }
 
+.paragraph{
+    margin-top: 2rem;
+    font-size: 1.5em;
+}
+
+h1 {
+    font-family: var(--font-display);
+    letter-spacing: .1rem;
+}
+
+h2, h3, h4 {
+    font-family: var(--font-h);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+
 h3 {
+    font-size: 1.8rem;
 }
 
 h4 {
+    font-size: 1.5rem;
+    line-height: 2rem;
 }
 
 p {
     font-family: var(--font-paragraph);
-    font-size: .8rem;
+    font-size: 1rem;
+    line-height: 1.4rem;
 }
 
 p.small {
+    font-size: .8rem;
 }
 
 header {
