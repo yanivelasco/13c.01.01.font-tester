@@ -16,9 +16,9 @@
 
 
 :root {
-    --font-display: 'Bebas Neue', cursive;
-    --font-h: 'Figtree', sans-serif;
-    --font-paragraph: 'Heebo', sans-serif;
+    --font-display: 'Technor', sans-serif;
+    /* --font-h: 'Figtree', sans-serif; */
+    --font-paragraph: 'Supreme', sans-serif;
 }
 
 html {
@@ -31,6 +31,7 @@ main{
 
 .display{
     font-size: 3em;
+    font-weight: bolder;
     
 }
 
@@ -49,9 +50,22 @@ h1 {
     letter-spacing: .1rem;
 }
 
-h2, h3, h4 {
-    font-family: var(--font-h);
+h2 {
+    font-family: var(--font-display);
+    font-weight: 500;
 }
+
+h3 {
+    font-family: var(--font-display);
+    font-weight: 400;
+}
+
+h4 {
+    font-family: var(--font-display);
+    font-weight: lighter;
+}
+
+
 
 h1 {
     font-size: 4rem;
@@ -73,12 +87,13 @@ h4 {
 
 p {
     font-family: var(--font-paragraph);
-    font-size: 1rem;
-    line-height: 1.4rem;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
 }
 
 p.small {
-    font-size: .8rem;
+    font-size: 1rem;
+    line-height: 1.3rem;
 }
 
 header {
@@ -97,8 +112,9 @@ section {
 
 .one_one_one_grid {
     display: grid;
-    column-gap: 2rem;
-    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15rem;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 2em;
 }
 
 .inline {
@@ -119,4 +135,21 @@ section {
 
 .space {
     height: 4rem;
+}
+
+h2.headline{
+    font-weight: 500;
+}
+
+.one_one_one_grid h2{
+    margin-bottom: .5em;
+}
+
+.one_one_one_grid h3{
+    margin-bottom: .8em;
+    font-size: 2rem;
+}
+
+.one_one_one_grid h4{
+    margin-bottom: .9em;
 }
